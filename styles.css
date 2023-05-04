@@ -1,0 +1,49 @@
+/* ------------------- */
+/* Custom properties   */
+/* ------------------- */
+:root {
+    /* colours */
+    --primary-dark-cyan: hsl(158, 36%, 37%);
+    --primary-cream: hsl(30, 38%, 92%);
+    --neutral-very-dark-blue: hsl(212, 21%, 14%);
+    --neutral-dark-grayish-blue: hsl(228, 12%, 48%);
+    --neutral-white: hsl(0, 0%, 100%);
+
+    /* font-sizes */
+    --fs-12: 0.8571rem;
+    --fs-13: 0.9286rem;
+    --fs-32: 2.2857rem;
+
+    /* font-family */
+    --ff-serif: font-family: 'Fraunces', serif;
+    --ff-sans-serif: 'Montserrat', sans-serif;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* ------------------- */
+/* Reset               */
+/* ------------------- */
+
+/* Box sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+p {
+    margin: 0; 
+}
+
+/* Body setup */
+body {
+    font-family: var(--ff-sans-serif);
+    font-size: 14px;
+    color: var(--neutral-dark-grayish-blue);
+    line-height: 1.6428rem;
+    min-height: 100vh;
+}
